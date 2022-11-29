@@ -13,3 +13,11 @@ Below are the procedures:
 3. Run employee.sql in MySQL to create the tables.
 4. Back to IntelliJ, install the packages via Maven.
 5. Run the project.
+
+## APIs:
+
+- GET /api/employees (return all employees in the database)
+- GET /api/employees/{employeeId} (return one employee with the given employeeId)
+- POST /api/employees (add a new employee)
+- PUT /api/employees (update an employee's info)
+- DELETE /api/employees (delete an employee given his id)
