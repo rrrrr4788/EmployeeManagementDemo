@@ -20,4 +20,4 @@ Below are the procedures:
 - GET /api/employees/{employeeId} (return one employee with the given employeeId)
 - POST /api/employees (add a new employee)
 - PUT /api/employees (update an employee's info)
-- DELETE /api/employees (delete an employee given his id)
+- DELETE /api/employees/{employeeId} (delete an employee given his id)
